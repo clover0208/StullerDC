@@ -162,7 +162,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 
 	.menu-container > .menu-item > .menu-link {
 		font-weight: 500;
-		font-size: 0.75rem;
+		font-size: 0.875rem;
 	}
 
   	.mega-menu-column > .menu-item > .menu-link {
