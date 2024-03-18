@@ -534,8 +534,8 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
 	.slider-element .card {
 		background-color: rgba(255, 255, 255, 0.15);
-		-webkit-backdrop-filter: blur(10px);
-		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(50px);
+		backdrop-filter: blur(50px);
 	}
 }
 
