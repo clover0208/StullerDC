@@ -521,7 +521,7 @@ progress {
 }
 
 .display-4 {
-  font-size: 3rem;
+  font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
 }
@@ -1369,7 +1369,7 @@ progress {
 
   .col-lg-3 {
     flex: 0 0 auto;
-    width: 8%;
+    width: 25%;
   }
 
   .col-lg-4 {
@@ -4495,7 +4495,7 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.3rem;
+  border-radius: 0.25rem;
 }
 .card > hr {
   margin-right: 0;
@@ -5040,7 +5040,7 @@ textarea.form-control-lg {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0.45rem;
+  border-radius: 0.25rem;
 }
 
 .list-group-numbered {
@@ -5071,13 +5071,11 @@ textarea.form-control-lg {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.5rem rem;
-  margin-bottom: 8px;
-    padding-bottom: 8px;
+  padding: 0.5rem 1rem;
   color: #212529;
   text-decoration: none;
   background-color: #fff;
-  border: 100px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -5250,17 +5248,10 @@ textarea.form-control-lg {
   }
 }
 .list-group-flush {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   border-radius: 0;
-  margin-bottom: 8px;
-  padding-bottom: 8px;
 }
 .list-group-flush > .list-group-item {
-  border-width: 0 0 2px;
+  border-width: 0 0 1px;
 }
 .list-group-flush > .list-group-item:last-child {
   border-bottom-width: 0;
@@ -6986,6 +6977,10 @@ textarea.form-control-lg {
 
 .vh-100 {
   height: 100vh !important;
+}
+
+.min-vh-90 {
+  min-height: 90vh !important;
 }
 
 .min-vh-100 {
