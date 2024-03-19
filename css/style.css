@@ -13159,6 +13159,7 @@ blockquote.float-end {
 .flip-card-front.no-after::after,
 .flip-card-back.no-after::after { content: none }
 
+/* flipcardinneropacity */
 .flip-card-front::after,
 .flip-card-back::after {
 	position: absolute;
