@@ -1,3 +1,4 @@
+/* Testing sections design */
 .recipe-categories {
 	display: flex;
 	flex-wrap: wrap;
@@ -524,7 +525,7 @@ body:not(.primary-menu-open) #primary-menu-trigger svg:nth-child(2) { display: n
 
 
 
-/* HomePage 2 */
+/* Sections Testing */
 
 .slider-element .card {
 	background-color: rgba(255, 255, 255, 0.35);
